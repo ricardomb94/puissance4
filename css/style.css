@@ -1,0 +1,43 @@
+body{
+    width: 100%;
+    /* background: #39272c; */
+    background-image: linear-gradient(to left bottom, #cf23ae, #db0698, #e30082, #e6006c, #e60057, #e70058, #e80059, #e9005a, #eb0072, #e8008b, #df00a5, #cf23c0);
+    /* background: #ffffaf; */
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    justify-content: center;
+    color: whitesmoke;
+}
+header{
+    width: 100%;
+    height: auto;
+    margin: auto;
+    background: #916755;
+    text-align: center;
+}
+section{
+    width: 380px;
+    height: auto;
+    margin: auto;
+    text-align: center;
+}
+
+button{
+    width: 12rem;
+    height: 4rem;
+    /* font-size: 79%; */
+    font-weight: 900;
+    color: white;
+    box-shadow: 0 0 0 4px rgba(255, 255, 255, 0.51); 
+    padding: 10px;
+    border-radius: 25px;
+    margin-bottom: 15px;
+    margin-top: 5px;
+    background: green;
+}
+
+
+

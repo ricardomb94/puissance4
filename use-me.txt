@@ -1,0 +1,85 @@
+Définition de notre Class
+
+DEFINITION DES VARIABLES
+
+une variable pour dessiner le tableau:
+
+var gridDimension {
+    x:7,
+    y:6
+}
+
+Pour représenter les jours par des identifiants :
+var player1 = 1;
+var player2 = 2;
+
+Player turn = 1;
+
+
+Methode pour générer la grille en
+
+1) Html: il faut cibler les évenements à chaque fois
+
+ou 
+
+2) JavaScript : avec la variable gridDimension avec une methode (fonction)
+genrateGride qu'on peut appeler dans le constructor
+
+Après il faut penser à la stocker dans une varible qui va representer un tableau multimensionnel
+grid[col]=[gridDimension] dans une boucle for imbriquée
+
+
+Définir le gagnant avec une function
+
+var winner = ''; // incluse dans une condition pour déterminer si le jeu continue ou s'arrete selon qu'elle est égale à 0,1,2...ou 4(pour le gagnant)
+
+
+function setWinner
+
+function checkCol( pr déterminer le gagnant de manière verticale)
+function checkRaw( pr déterminer le gagnant de manière horizontale)
+function checkCol( pr déterminer le gagnant de manière diagonale)
+
+
+Créer un event au click sur les td (table data)
+
+function tdOnClick =
+
+Nous partirons du dernier index en lisant la boucle à l'inverse
+Grid.length-1
+
+Une méthode checkLastIndex qui retourne la raw index
+Une methode addJeton le placer visuellment
+après on appel les 3 méthodes check
+Enfin set le winner avec les cdtions
+
+déterminer l'égalité
+faire variable maxTurn qui retourne le nombre coup maximum
+
+un var qui compte le nombre coup joué turn += 1;
+si turn = ou > maxTurn => winner
+
+
+
+
+attributs
+
+gridDimension (x, y) à mettre ds le constructor + boucle imbriquée
+Var player1
+var player2
+
+var playerTurn = valeur du jour qui est entrain de jouer
+var Grid qui stoque la grille
+var winner qui définis grace aux méthodes
+
+var maxTurn (x,y)
+var counTurn(nbre de coup joué)
+
+function Grid
+function col
+function check
+
+
+event = checkLastIndex, addJeton, checkCol, checkRaw, checkDiagonale
+
+condition show winner
